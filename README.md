@@ -10,10 +10,38 @@ https://www.kaggle.com/datasets/omrathod2003/140-most-popular-crops-image-datase
 
 ## 🏗️ Model Architecture
 
-The model is built using TensorFlow and Keras with the following layers:
+The plant classifier model is a Convolutional Neural Network (CNN) built using TensorFlow's Keras `Sequential` API. It consists of the following layers:
 
-- **Input Layer**: Image preprocessing and resizing  
-- **Convolutional Layers**: Feature extraction  
-- **Pooling Layers**: Dimensionality reduction  
-- **Dense Layers**: Classification  
-- **Output Layer**: Softmax activation for multi-class prediction
+1. **Conv2D Layer**  
+   - 32 filters  
+   - Kernel size: 3x3  
+   - Activation: ReLU  
+   - Input shape: `(224, 224, 3)` (RGB images resized to 224x224)
+
+2. **MaxPooling2D Layer**  
+   - Pool size: 2x2 (reduces spatial dimensions)
+
+3. **Conv2D Layer**  
+   - 64 filters  
+   - Kernel size: 3x3  
+   - Activation: ReLU
+
+4. **MaxPooling2D Layer**  
+   - Pool size: 2x2
+
+5. **Flatten Layer**  
+   - Flattens 2D feature maps into 1D vector
+
+6. **Dense Layer**  
+   - 128 units  
+   - Activation: ReLU
+
+7. **Output Dense Layer**  
+   - Number of units equals the number of plant classes (`train_data.num_classes`)  
+   - Activation: Softmax (for multi-class classification)
+
+### Model Compilation
+
+- **Optimizer:** Adam  
+- **Loss function:** Categorical Crossentropy  
+- **Metrics:** Accuracy
