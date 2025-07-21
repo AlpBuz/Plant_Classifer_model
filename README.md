@@ -2,6 +2,9 @@
 
 A simple deep learning model built with **TensorFlow** to classify plant species based on input images. This project demonstrates the use of convolutional neural networks (CNNs) for image classification tasks and is trained on a dataset sourced from **Kaggle**.
 
+This is a simple project in helping me understand how to use Tensorflow and such. I am also planning on creating a web app using this model I created.
+
+**NOTE: The GitHub does not have the model as it is too large to be saved on to the repo which is why the training file and link to the dataset has been given**
 
 ## 📂 Dataset
 
