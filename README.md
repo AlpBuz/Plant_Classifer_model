@@ -6,7 +6,7 @@ A simple deep learning model built with **TensorFlow** to classify plant species
 ## 📂 Dataset
 
 The dataset was obtained from [Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/omrathod2003/140-most-popular-crops-image-dataset?resource=download-directory&select=140_crops_list.txt)) and includes labeled images of various plant species. Each image is categorized under a specific plant class.
-
+https://www.kaggle.com/datasets/omrathod2003/140-most-popular-crops-image-dataset?resource=download-directory&select=140_crops_list.txt
 
 ## 🏗️ Model Architecture
 
