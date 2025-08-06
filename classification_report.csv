@@ -40,7 +40,7 @@ Dates plant,0.16,0.16,0.16,44
 Dry beans plant,0.03,0.05,0.04,43
 Dry peas plant,0.06,0.09,0.07,44
 Durian plant,0.33,0.09,0.14,34
-Eggplants(Aubergines) plant,0.20,0.19,0.19,42
+Eggplants (Aubergines) plant,0.20,0.19,0.19,42
 Endive plant,0.17,0.06,0.08,36
 Fava bean plant,0.43,0.13,0.20,45
 Figs plant,0.18,0.10,0.13,41
@@ -72,8 +72,8 @@ Longan plant,0.21,0.17,0.19,41
 Lupins plant,0.20,0.31,0.25,48
 Lychee plant,0.35,0.24,0.28,38
 Maize (Corn) plant,0.13,0.09,0.10,46
-Mandarins, clementines, satsumas plant,0.33,0.12,0.18,41
-Mangoes, mangosteens, guavas plant,0.03,0.05,0.04,40
+Mandarins clementines satsumas plant,0.33,0.12,0.18,41
+Mangoes mangosteens guavas plant,0.03,0.05,0.04,40
 Maracuja(Passionfruit) plant,0.22,0.12,0.16,48
 Millet plant,0.21,0.13,0.16,39
 Mint plant,0.18,0.16,0.17,43
@@ -100,7 +100,7 @@ Pistachios plant,0.12,0.22,0.16,37
 Plantains plant,0.00,0.00,0.00,42
 Pomegranates plant,0.16,0.07,0.09,46
 Potatoes plant,0.06,0.10,0.07,40
-Pumpkins, squash and gourds plant,0.12,0.17,0.14,53
+Pumpkins squash and gourds plant,0.12,0.17,0.14,53
 Quinoa plant,0.24,0.10,0.14,39
 Radishes and similar roots plant,0.13,0.13,0.13,39
 Rambutan plant,0.22,0.12,0.16,40
@@ -201,4 +201,3 @@ Wheat plant,0.16,0.11,0.13,45
 Yams plant,0.15,0.16,0.15,44
 Wheat plant,0.16,0.11,0.13,45
 Yams plant,0.15,0.16,0.15,44
-
