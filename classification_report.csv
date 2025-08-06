@@ -40,7 +40,7 @@ Dates plant,0.16,0.16,0.16,44
 Dry beans plant,0.03,0.05,0.04,43
 Dry peas plant,0.06,0.09,0.07,44
 Durian plant,0.33,0.09,0.14,34
-Eggplants,(Aubergines),plant,0.20,0.19,0.19,42
+Eggplants(Aubergines) plant,0.20,0.19,0.19,42
 Endive plant,0.17,0.06,0.08,36
 Fava bean plant,0.43,0.13,0.20,45
 Figs plant,0.18,0.10,0.13,41
@@ -201,3 +201,4 @@ Wheat plant,0.16,0.11,0.13,45
 Yams plant,0.15,0.16,0.15,44
 Wheat plant,0.16,0.11,0.13,45
 Yams plant,0.15,0.16,0.15,44
+
