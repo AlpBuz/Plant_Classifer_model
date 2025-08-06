@@ -1,0 +1,203 @@
+plant_name,precision,recall,f1-score,support
+Aji pepper plant,0.83,0.80,0.81,85
+Almonds plant,0.55,0.77,0.64,77
+Amaranth plant,0.70,0.82,0.76,78
+Apples plant,0.46,0.72,0.56,68
+Artichoke plant,0.42,0.80,0.55,79
+Avocados plant,0.72,0.82,0.77,76
+Bananas plant,0.90,0.79,0.84,77
+Barley plant,0.34,0.82,0.48,74
+Beets plant,0.44,0.76,0.55,75
+Black pepper plant,0.78,0.74,0.76,69
+Blueberries plant,0.41,0.68,0.51,78
+Bok choy plant,0.47,0.77,0.58,73
+Brazil nuts plant,0.64,0.76,0.70,74
+Broccoli plant,0.62,0.76,0.68,78
+Brussels sprout plant,0.56,0.74,0.64,84
+Buckwheat plant,0.44,0.75,0.56,77
+Cabbages and other brassicas plant,0.33,0.77,0.46,65
+Camucamu plant,1.00,0.12,0.22,8
+Carrots and turnips plant,0.56,0.91,0.69,169
+Cashew nuts plant,0.72,0.82,0.77,78
+Cassava plant,1.00,0.89,0.94,35
+Cauliflower plant,0.05,0.09,0.06,43
+Celery plant,0.33,0.07,0.12,41
+Cherimoya plant,0.17,0.07,0.10,40
+Cherry plant,0.13,0.05,0.07,43
+Chestnuts plant,0.13,0.08,0.10,52
+Chickpeas plant,0.11,0.11,0.11,45
+Chili peppers and green peppers plant,0.09,0.04,0.06,45
+Cinnamon plant,0.66,0.84,0.74,77
+Cloves plant,0.85,0.85,0.85,72
+Cocoa beans plant,0.13,0.13,0.13,47
+Coconuts plant,0.36,0.21,0.27,47
+Coffee (green) plant,0.23,0.22,0.23,49
+Collards plant,0.09,0.12,0.11,40
+Cotton lint plant,0.32,0.18,0.23,39
+Cranberries plant,0.86,0.14,0.24,42
+Cucumbers and gherkins plant,0.19,0.09,0.12,45
+Dates plant,0.16,0.16,0.16,44
+Dry beans plant,0.03,0.05,0.04,43
+Dry peas plant,0.06,0.09,0.07,44
+Durian plant,0.33,0.09,0.14,34
+Eggplants,(Aubergines),plant,0.20,0.19,0.19,42
+Endive plant,0.17,0.06,0.08,36
+Fava bean plant,0.43,0.13,0.20,45
+Figs plant,0.18,0.10,0.13,41
+Flax fiber and tow plant,0.17,0.27,0.21,41
+Flaxseed (Linseed) plant,0.08,0.10,0.09,48
+Fonio plant,0.46,0.20,0.28,30
+Garlic plant,0.10,0.05,0.06,43
+Ginger plant,0.28,0.24,0.26,42
+Gooseberries plant,0.08,0.14,0.10,44
+Grapes plant,0.11,0.07,0.09,40
+Groundnuts (Peanuts) plant,0.24,0.12,0.16,33
+Guarana plant,0.43,0.18,0.25,34
+Guavas plant,0.25,0.16,0.20,43
+Habanero pepper plant,0.30,0.15,0.20,41
+Hazelnuts plant,0.19,0.13,0.16,46
+Hemp plant,0.02,0.02,0.02,42
+Hen eggs (shell weight) plant,0.26,0.18,0.21,33
+Horseradish plant,0.43,0.23,0.30,44
+Jackfruit plant,0.16,0.13,0.14,53
+Jute plant,0.42,0.26,0.32,39
+Kale plant,0.26,0.14,0.18,42
+Kohlrabi plant,0.11,0.20,0.14,46
+Leeks plant,0.07,0.18,0.10,39
+Lemons and limes plant,0.45,0.12,0.19,42
+Lentils plant,0.38,0.24,0.30,49
+Lettuce and chicory plant,0.21,0.16,0.18,44
+Lima bean plant,0.17,0.16,0.16,32
+Longan plant,0.21,0.17,0.19,41
+Lupins plant,0.20,0.31,0.25,48
+Lychee plant,0.35,0.24,0.28,38
+Maize (Corn) plant,0.13,0.09,0.10,46
+Mandarins, clementines, satsumas plant,0.33,0.12,0.18,41
+Mangoes, mangosteens, guavas plant,0.03,0.05,0.04,40
+Maracuja(Passionfruit) plant,0.22,0.12,0.16,48
+Millet plant,0.21,0.13,0.16,39
+Mint plant,0.18,0.16,0.17,43
+Mung bean plant,0.12,0.12,0.12,34
+Mustard greens plant,0.06,0.13,0.08,46
+Mustard seeds plant,0.13,0.17,0.15,47
+Navy bean plant,0.20,0.33,0.25,33
+Oats plant,0.19,0.16,0.17,45
+Oil palm fruit plant,0.14,0.05,0.07,40
+Okra plant,0.12,0.09,0.11,32
+Olives plant,0.06,0.06,0.06,52
+Onions (dry) plant,0.07,0.10,0.08,48
+Oranges plant,0.18,0.09,0.12,47
+Oregano plant,0.47,0.22,0.30,41
+Papayas plant,0.36,0.22,0.27,41
+Parsley plant,0.17,0.11,0.13,46
+Peaches and nectarines plant,0.33,0.13,0.19,45
+Peas (Green) plant,0.12,0.16,0.13,45
+Persimmons plant,0.25,0.17,0.21,46
+Pine nuts plant,0.12,0.05,0.07,42
+Pineapples plant,0.23,0.19,0.21,42
+Pinto bean plant,0.00,0.00,0.00,31
+Pistachios plant,0.12,0.22,0.16,37
+Plantains plant,0.00,0.00,0.00,42
+Pomegranates plant,0.16,0.07,0.09,46
+Potatoes plant,0.06,0.10,0.07,40
+Pumpkins, squash and gourds plant,0.12,0.17,0.14,53
+Quinoa plant,0.24,0.10,0.14,39
+Radishes and similar roots plant,0.13,0.13,0.13,39
+Rambutan plant,0.22,0.12,0.16,40
+Rapeseed (Canola) plant,0.54,0.15,0.23,47
+Raspberries plant,0.22,0.10,0.14,39
+Rice (Paddy) plant,0.15,0.17,0.16,41
+Rosemary plant,0.12,0.10,0.11,39
+Rubber (natural) plant,0.57,0.09,0.16,44
+Rye plant,0.18,0.31,0.22,42
+Saffron plant,0.28,0.37,0.32,43
+Sage plant,0.20,0.25,0.22,40
+Scallions plant,0.08,0.04,0.06,47
+Sorghum plant,0.35,0.24,0.28,38
+Soursop plant,0.29,0.19,0.23,42
+Soybeans plant,0.15,0.20,0.17,41
+Spinach plant,0.17,0.11,0.13,46
+Starfruit plant,0.14,0.13,0.14,46
+Strawberries plant,0.15,0.16,0.16,44
+Sugar beet plant,0.10,0.05,0.07,40
+Sugar cane plant,0.13,0.16,0.15,43
+Sunflower seeds plant,0.29,0.20,0.24,45
+Sweet potatoes plant,0.06,0.05,0.06,37
+Swiss chard plant,0.19,0.22,0.21,49
+Tamarind plant,0.17,0.09,0.12,44
+Taro (cocoyam) plant,0.11,0.11,0.11,38
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Triticale plant,0.32,0.15,0.21,39
+Turmeric plant,0.28,0.24,0.26,41
+Turnip greens plant,0.05,0.07,0.06,42
+Vanilla beans plant,0.75,0.29,0.42,41
+Walnuts plant,0.11,0.14,0.12,44
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Triticale plant,0.32,0.15,0.21,39
+Turmeric plant,0.28,0.24,0.26,41
+Turnip greens plant,0.05,0.07,0.06,42
+Vanilla beans plant,0.75,0.29,0.42,41
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Triticale plant,0.32,0.15,0.21,39
+Turmeric plant,0.28,0.24,0.26,41
+Turnip greens plant,0.05,0.07,0.06,42
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Triticale plant,0.32,0.15,0.21,39
+Turmeric plant,0.28,0.24,0.26,41
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Triticale plant,0.32,0.15,0.21,39
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Triticale plant,0.32,0.15,0.21,39
+Turmeric plant,0.28,0.24,0.26,41
+Turnip greens plant,0.05,0.07,0.06,42
+Tea plant,0.04,0.02,0.03,46
+Teff plant,0.60,0.15,0.24,39
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Triticale plant,0.32,0.15,0.21,39
+Turmeric plant,0.28,0.24,0.26,41
+Turnip greens plant,0.05,0.07,0.06,42
+Vanilla beans plant,0.75,0.29,0.42,41
+Walnuts plant,0.11,0.14,0.12,44
+Thyme plant,0.28,0.21,0.24,43
+Tomatoes plant,0.46,0.15,0.22,41
+Triticale plant,0.32,0.15,0.21,39
+Turmeric plant,0.28,0.24,0.26,41
+Turnip greens plant,0.05,0.07,0.06,42
+Vanilla beans plant,0.75,0.29,0.42,41
+Walnuts plant,0.11,0.14,0.12,44
+Turnip greens plant,0.05,0.07,0.06,42
+Vanilla beans plant,0.75,0.29,0.42,41
+Walnuts plant,0.11,0.14,0.12,44
+Watermelons plant,0.22,0.12,0.16,41
+Wheat plant,0.16,0.11,0.13,45
+Yams plant,0.15,0.16,0.15,44
+Watermelons plant,0.22,0.12,0.16,41
+Wheat plant,0.16,0.11,0.13,45
+Yams plant,0.15,0.16,0.15,44
+Wheat plant,0.16,0.11,0.13,45
+Yams plant,0.15,0.16,0.15,44
