@@ -1,18 +1,17 @@
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
 
 # checks to see if tensorflow is installed
 #print("TensorFlow version:", tf.__version__)
 #print("Num GPUs Available:", len(tf.config.list_physical_devices('GPU')))
 # ---------------------------------------------------------------------------
 
-# Create the training and testing datasets
+# Create the training and testing and val datasets
 datagen = ImageDataGenerator(rescale=1./255)
 
 train_data = datagen.flow_from_directory(
@@ -28,6 +27,13 @@ test_data = datagen.flow_from_directory(
     batch_size=32,
     class_mode='categorical',
     shuffle=False
+)
+
+val_data = datagen.flow_from_directory(
+    'train_data/RGB_224x224/val',
+    target_size=(224, 224),
+    batch_size=32,
+    class_mode='categorical',
 )
 
 # Create the model
@@ -53,7 +59,7 @@ Plant_classifer_model.compile(
 history = Plant_classifer_model.fit(
     train_data,
     epochs=10,
-    validation_data=test_data
+    validation_data=val_data
 )
 
 # Plot training history
