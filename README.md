@@ -48,3 +48,44 @@ The plant classifier model is a Convolutional Neural Network (CNN) built using T
 - **Optimizer:** Adam  
 - **Loss function:** Categorical Crossentropy  
 - **Metrics:** Accuracy
+
+
+## ⚙️ How I Built It
+Preprocessed images using TensorFlow's ImageDataGenerator
+
+Built and compiled the CNN model with Adam optimizer and categorical crossentropy loss
+
+Trained the model on the RGB images dataset
+
+Visualized training progress using accuracy and loss plots
+
+Evaluated the model using a classification report on test data
+
+
+
+## The Problem I Wanted to Solve
+Many beginner machine learning projects stop at MNIST or CIFAR datasets. I wanted to push myself further by working with a real-world, multi-class image classification problem.
+
+Specifically, I built a model that can classify 139 plant species from images. This kind of classifier could be useful in agriculture, education, or even mobile apps for plant identification.
+
+
+## 🛠️ Challenges & Learnings
+   # challenges:
+      - Hardware limitations: Training on CPU took a long time, which limited experimentation speed. To address this, I plan to run the model on my NVIDIA laptop GPU or leverage cloud services like Google Colab for faster training when improving the model.
+      - Overfitting: The model showed high training accuracy (~97%) but low validation accuracy (~30%), indicating overfitting due to insufficient or imbalanced data.
+   
+   # Learned:
+      - Implemented custom preprocessing with ImageDataGenerator to handle dynamic image transformations.
+      - Gained hands-on experience designing CNN architectures and tuning training processes.
+      - Learned to interpret classification reports for model evaluation beyond simple accuracy metrics.
+      - Understood the importance of more diverse and larger datasets to improve generalization.
+
+
+
+## 📊 Results
+The model achieved a training accuracy of ~97%, but the validation accuracy was around 30%, indicating overfitting — it performed well on training data but struggled to generalize to unseen images.
+
+Despite the low overall validation accuracy, the classification report showed strong performance on certain plant classes, suggesting the model was able to learn meaningful patterns for some categories.
+
+This highlights the need for more diverse and balanced data across all classes to improve the model’s generalization.
+
