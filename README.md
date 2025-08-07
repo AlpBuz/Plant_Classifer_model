@@ -66,7 +66,7 @@ Evaluated the model using a classification report on test data
 ## The Problem I Wanted to Solve
 Many beginner machine learning projects stop at MNIST or CIFAR datasets. I wanted to push myself further by working with a real-world, multi-class image classification problem.
 
-Specifically, I built a model that can classify 139 plant species from images. This kind of classifier could be useful in agriculture, education, or even mobile apps for plant identification.
+Specifically, I built a model that can classify 139 plant species from images. This kind of classifier could be useful in agriculture, education, or even web apps for plant identification.
 
 
 ## 🛠️ Challenges & Learnings
