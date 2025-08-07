@@ -70,15 +70,17 @@ Specifically, I built a model that can classify 139 plant species from images. T
 
 
 ## 🛠️ Challenges & Learnings
-   # challenges:
-      - Hardware limitations: Training on CPU took a long time, which limited experimentation speed. To address this, I plan to run the model on my NVIDIA laptop GPU or leverage cloud services like Google Colab for faster training when improving the model.
-      - Overfitting: The model showed high training accuracy (~97%) but low validation accuracy (~30%), indicating overfitting due to insufficient or imbalanced data.
-   
-   # Learned:
-      - Implemented custom preprocessing with ImageDataGenerator to handle dynamic image transformations.
-      - Gained hands-on experience designing CNN architectures and tuning training processes.
-      - Learned to interpret classification reports for model evaluation beyond simple accuracy metrics.
-      - Understood the importance of more diverse and larger datasets to improve generalization.
+
+### 🔧 Challenges
+- **Hardware limitations:** Training on CPU took a long time, which limited experimentation speed. To address this, I plan to run the model on my NVIDIA laptop GPU or use cloud services like Google Colab for faster training in future iterations.  
+- **Overfitting:** The model showed high training accuracy (~97%) but low validation accuracy (~30%), indicating overfitting due to insufficient or imbalanced data.
+
+### 📚 Learnings
+- Implemented custom preprocessing with `ImageDataGenerator` to handle dynamic image transformations during training.
+- Gained hands-on experience designing CNN architectures and tuning hyperparameters.
+- Learned to interpret classification reports for model evaluation beyond simple accuracy metrics.
+- Realized the importance of using more diverse and balanced datasets to improve model generalization.
+
 
 
 
